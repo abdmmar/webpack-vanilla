@@ -43,7 +43,7 @@ http-server ./dist
 - [Webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
 - [PostCSS](https://postcss.org/)
-- [ESLint](<(https://eslint.org/)>)
+- [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
 ## License
