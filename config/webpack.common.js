@@ -47,7 +47,7 @@ module.exports = {
     }),
     new htmlWebpackPlugin({
       title: 'Webpack Vanilla JS',
-      favicon: paths.public + '/favicon.ico',
+      favicon: paths.public + '/favicon.png',
       template: paths.public + '/index.html',
       filename: 'index.html'
     })
