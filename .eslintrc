@@ -1,0 +1,19 @@
+{
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "ignorePatterns": ["dist", "node_modules", "webpack.*", "config/paths.js"],
+  "rules": {
+    "strict": ["error", "never"],
+    "no-unused-vars": "warn"
+  }
+}
